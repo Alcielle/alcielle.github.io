@@ -1,0 +1,173 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Bio: Abhishek Das</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbarContainer">
+        <a href="#home" class="navbarlogo" id="navbar_logo"
+          >Professional Profile</a
+        >
+        <div class="navbarToggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbarMenu">
+          <li class="navbarItem">
+            <a href="#home" class="navlinks" id="homepage">Who am I</a>
+          </li>
+          <li class="navbarItem">
+            <a href="#workhistory" class="navlinks" id="workhistorypage"
+              >Past Work</a
+            >
+          </li>
+          <li class="navbarItem">
+            <a href="#projects" class="navlinks" id="projectspage">Projects</a>
+          </li>
+          <li class="navbarButton">
+            <a href="#form" class="button" id="contactpage">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="bio" id="home">
+      <div class="bioContainer">
+        <h1 class="bioHeading">About Me</h1>
+        <div class="image">
+          <img
+            src="images/pfp.jpg"
+            alt="This is Abhishek Das. He is a man in a suit"
+          />
+        </div>
+        <div class="text">
+          <p class="biography">
+            My name is Abhishek Das. I am about to receive a MS in computer
+            science on an AI track with expertise in the field of Artificial
+            Intelligence and Machine Learning with a Computer Security base of
+            knowledge as well. My interests in the field include developing
+            algorithms for as well as generating actual code bases that
+            represent neural networks that apply towards reinforcement learning
+            tasks with a particular interest in solving game theory problems as
+            well as being able to apply the ability of neural networks towards
+            tasks that involve parsing tangible and relevant data out of
+            distributions. However, I am also capable with and interested in
+            general neural network architectures and applying them towards a
+            broader task base.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="pastwork" id="workhistory">
+      <div class="pwContainer">
+        <div class="text">
+          <h1 class="pwHeading">Course History and Technical Skills</h1>
+          <div class="image">
+            <img
+              src="images/skills.jpg"
+              alt="This is a stock Skills image. It contains a man holding a circle with skills"
+            />
+          </div>
+          <h2 class="pwHeadingtwo">Skill Summary</h2>
+          <p class="skills">
+            My technical skills include proficiency with C++, Python, Web
+            Development languages (HTML, nodeJS, JS, and CSS), some Perl and
+            PHP. This has been applied towards Computer Vision, basic Security
+            white hat testing, as well as general Machine learning tasks.
+            Additionally. I have a theoretical knowledge base as pertains to
+            Cryptography and Quantum Computational Cryptographic fields.
+          </p>
+          <h2 class="pwHeadingtwo">Course History</h2>
+          <p class="coursehighlights">
+            Course Highlights include: CS530 Cloud Computing, CS510CVDL Computer
+            Vision, CS545 Deep Learning, CS510QC Quantum Computing, CS585
+            Cryptography, CS 545 Machine Learning, CS541 Artificial Intelligence
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="projects" id="projects">
+      <div class="prContainer">
+        <div class="text">
+          <h1 class="prHeading">Projects Worked On</h1>
+          <div class="image">
+            <img
+              src="images/projects.jpg"
+              alt="This is a stock Projects image. It contains a robot thinking what project to do next"
+            />
+          </div>
+          <h2 class="prHeadingtwo">Poker AI</h2>
+          <p class="prparas">
+            I have attempted to use python Q learning libraries to teach a
+            custom weighted neural network with adjustable weights, how to play
+            poker against competent human adversaries. This project utilizes
+            Google Colab to facilitate the necessary GPU speeds needed to train
+            the network and have it learn to avoid malicious user poker patterns
+            (such as folding repeatedly).
+          </p>
+          <a class="prLink" href="https://github.com/Alcielle/PokerAI">
+            PokerAI GitHub link
+          </a>
+          <h2 class="prHeadingtwo">Recipe App: Cloud Deployment</h2>
+          <p class="prparas">
+            Python, nodeJS, Google Cloud backend, and RestAPI retrieval were
+            used to produce this simple application that can retrieve recipes
+            based on text entries into a given HTML field. Viewing access to
+            test and deploy this app can be requested via email as seen in the
+            Contact Me section.
+          </p>
+          <a
+            class="prLink"
+            href="https://gitlab.com/adaspsu/cloud-abhishek-das-adas/-/tree/main/final"
+          >
+            Recipe App GitLab link
+          </a>
+          <h2 class="prHeadingtwo">Internet Relay Chat</h2>
+          <p class="prparas">
+            An Internet Relay Chat (IRC) was implemented using python with basic
+            functionality, direct messaging and broadcast capability, as well as
+            connection and user error handling built in. Simple functionality
+            but an efficient deployment. This project demonstrates the ability
+            to leverage python to accomplish and show logical code organization
+            and flow.
+          </p>
+          <a class="prLink" href="https://github.com/Alcielle/cs594IRC"
+            >IRC GitHub link</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="contactform">
+      <div class="formContainer">
+        <form id="form" method="post">
+          <img
+            src="images/contactme.jpg"
+            alt="This is a stock contacts image. It contains a man holding a phone looking to text, call or email"
+          />
+          <h1 class="formHeading">Contact me at adas@pdx.edu</h1>
+          <p class="formPara">
+            Fill up the items in the form below to send to the given email
+          </p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /> <br />
+          <input
+            type="button"
+            class="submit"
+            id="submit"
+            name="submit"
+            value="Send"
+          />
+        </form>
+      </div>
+    </div>
+    <script src="project.js"></script>
+  </body>
+</html>
