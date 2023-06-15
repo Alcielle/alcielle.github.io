@@ -1,4 +1,4 @@
-#alcielle.github.io/project.html
+
 A website designed from the ground up using HTML, CSS, and JavaScript.
 
 To run this code, clone the repo and simply click on the project.html file from your local file system. This will open the landing page of the file and proceed to use links to get to other portions of the page.
